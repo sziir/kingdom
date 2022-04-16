@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/log.css">
+    <title>مملكة</title>
+</head>
+
+
+<body class="mt-5 rtl">
+    <div class="layer">
+
+    </div>
+
+    <div id="top-menu">
+        <div class="container-fluid ">
+            <!-- القائمه العلويه -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3">
+                <i class="fas fa-bars fa-lg" id="toggler"></i>
+                <a class="navbar-brand purple" href="index.html"> مملكة <span class="video-icon"><i
+                            class="fas fa-play-circle"></i></span>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link header-btn  px-3 ml-1 mr-3" href="index.html">الفيديوهات
+                                المقترحه</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header-btn px-3 ml-1" href="#">المرفوعة حديثا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header-btn px-3 ml-1" href="#">الفيديوهات الرائجة</a>
+                        </li>
+                        </li>
+                    </ul>
+                    <div class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2 search" type="search" placeholder="Search">
+                        <button onclick="location.href='search.html';" class="btn my-2 my-sm-0"
+                            type="submit">أبحث</button>
+                    </div>
+
+                </div>
+                <i class="fas fa-search mr-4 search-icon"></i>
+                <a class="nav-link login" href="#" data-toggle="modal" data-target="#loginmodel">تسجيل
+                    الدخول</a>
+            </nav>
+            <input type="search" class="form-control search-input" placeholder=" أبحث عن ...">
+
+            <!-- نافذة تسحيل الدخول - -->
+            <div class="modal fade" id="loginmodel">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">تسجيل الدخول</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span>&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="email" class="col-form-label">البريد الالكتروني:</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="col-form-label">كلمة المرور:</label>
+                                    <input type="password" class="form-control" id="password">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#">نسيت كلمة المرور</a>
+                            <a href="#" class="mx-auto">انشاء حساب</a>
+                            <button type="button" class="btn btn-primary">دخول</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- القائمه الجانبيه -->
+    <div class="row pt-4">
+        <div id="wrap">
+            <div class="sidebar">
+                <ul class="list-grup list-gruop-flush pl-0">
+                    <a href="" class='list-group-item'>
+                        <i class="fas fa-home mr-2 purple"></i>الصفحه الرئبسيه
+                    </a>
+                    <a href="" class='list-group-item'>
+                        <i class="fab fa-algolia mr-2 purple"></i>الفيديوهات المقترحة
+                    </a>
+                    <a href="" class='list-group-item'>
+                        <i class="far fa-plus-square mr-2 purple"></i>المفرفوعة حديثا
+                    </a>
+                    <a href="" class='list-group-item'>
+                        <i class="fas fa-fire-alt mr-2 purple"></i>الفيديوهات الرائجة
+                    </a>
+                    <a href="" class='list-group-item'>
+                        <i class="fas fa-fire-alt mr-2 purple"></i>فيديوهاتي
+                    </a>
+                    <a href="log.html" class='list-group-item'>
+                        <i class="fas fa-history mr-2 purple"></i>سجل المشاهدة
+                    </a>
+                    <a href="" class='list-group-item'>
+                        <i class="far fa-share-square mr-2 purple"></i>الاشتراكات
+                    </a>
+                    <a href="" class='list-group-item'>
+                        <i class="fas fa-film mr-2 purple"></i>الأفلام و العروض
+                    </a>
+                    <a href="" class='list-group-item'>
+                        <i class="fas fa-gamepad mr-2 purple"></i>العاب الفيديو
+                    </a>
+                    <a href="" class='list-group-item'>
+                        <i class="fas fa-tshirt mr-2 purple"></i>الموضة و الجمال
+                    </a>
+                    <a href="" class='list-group-item'>
+                        <i class="fas fa-graduation-cap mr-2 purple"></i>محتوى تعليمي
+                    </a>
+                    <a href="" class='list-group-item'>
+                        <i class="fas fa-cog mr-2 purple"></i>الاعدادات
+                    </a>
+                    <a href="" class='list-group-item'>
+                        <i class="fas fa-question-circle mr-2 purple"></i>مساعدة
+                    </a>
+                    <a href="#" class='list-group-item'>جميع الحقوق محفوظة <br> سيزر 2022 &copy;
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- محتويات الصفحه -->
+    <div class="history-page pt-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-3 history-filter">
+                    <input type="search" placeholder="ابحث في سجل المشاهدة" class="form-control my-3 border-0">
+                    <hr>
+                    <label for="">نوع السجل:</label>
+                    <div class="list-group list-group-flush pr-0 " id="list-tab">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                            href="#list-home">سجل المشاهدة</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                            href="#list-profile">سحل البحث</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                            href="#list-messages">التعليقات</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                            href="#list-settings">المنتدى</a>
+                    </div>
+                    <label for="" class="mt-4">التاريخ:</label>
+                    <div class="list-group list-group-flush pr-0" id="list-tab">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                            href="#list-home">منذ 24 ساعة</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                            href="#list-profile">منذ 3 أيام</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                            href="#list-messages">منذ أسبوع</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                            href="#list-settings">منذ شهر</a>
+                    </div>
+
+                </div>
+                <div class="col-lg-9">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 ">
+                                <div class="card mb-3">
+                                    <div class="card-horizontal d-md-flex d-block">
+                                        <div class="card-icons">
+                                            <a href="watch.html">
+                                                <img class="img-search" src="img/maxresdefault (2).jpg"
+                                                    alt="Card image cap">
+                                                <time>12:10</time>
+                                                <i class="fas fa-play fa-2x"></i>
+                                            </a>
+                                            <i class="fas fa-times remove"></i>
+                                        </div>
+                                        <div class="card-body pt-2 px-3 p-1">
+                                            <a href="watch.html">
+                                                <h4 class="card-title">مقطع اوفر واتش تيم كيل</h4>
+                                            </a>
+                                            <p class="card-text">عنوان ما له فايده لا تركزو عليه لاني ما اعرف
+                                                ايش اكتب
+                                                فيه بس لازم اكتب
+                                                عشان اختبر البطاقه و شكرا عنوان ما له فايده لا تركزو عليه لاني
+                                                ما اعرف
+                                                ايش اكتب فيه بس
+                                                لازم اكتب عشان اختبر البطاقه و شكرا عنوان ما له فايده لا تركزو
+                                                عليه لاني
+                                                ما اعرف ايش
+                                                اكتب فيه بس لازم اكتب عشان اختبر البطاقه و شكرا</p>
+                                            <small class="text-muted">
+                                                <i class="fas fa-film"></i><span> 3 ألاف مشاهده </span>
+                                                <i class="far fa-clock"></i><span> قبل 9 أشهر</span>
+                                            </small>
+                                            <a href="channel.html" class="channel-img">
+                                                <img src="img/channel.jpg" alt="channel image"
+                                                    class="rounded-circle  ml-3 channel-img">
+                                                <span class="channel-text"> الاسطوره سيزر</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card  mb-3">
+                                    <div class="card-horizontal d-md-flex d-block">
+                                        <div class="card-icons">
+                                            <a href="watch.html">
+                                                <img class="img-search" src="img/maxresdefault (3).jpg"
+                                                    alt="Card image cap">
+                                                <time>12:10</time>
+                                                <i class="fas fa-play fa-2x"></i>
+                                            </a>
+                                            <i class="fas fa-times remove"></i>
+                                        </div>
+                                        <div class="card-body pt-2 px-3 p-1">
+                                            <a href="watch.html">
+                                                <h4 class="card-title">مقطع اوفر واتش تيم كيل</h4>
+                                            </a>
+                                            <p class="card-text">عنوان ما له فايده لا تركزو عليه لاني ما اعرف
+                                                ايش اكتب
+                                                فيه بس لازم اكتب
+                                                عشان اختبر البطاقه و شكرا عنوان ما له فايده لا تركزو عليه لاني
+                                                ما اعرف
+                                                ايش اكتب فيه بس
+                                                لازم اكتب عشان اختبر البطاقه و شكرا عنوان ما له فايده لا تركزو
+                                                عليه لاني
+                                                ما اعرف ايش
+                                                اكتب فيه بس لازم اكتب عشان اختبر البطاقه و شكرا</p>
+                                            <small class="text-muted">
+                                                <i class="fas fa-film"></i><span> 3 ألاف مشاهده </span>
+                                                <i class="far fa-clock"></i><span> قبل 9 أشهر</span>
+                                            </small>
+                                            <a href="channel.html" class="channel-img">
+                                                <img src="img/channel.jpg" alt="channel image"
+                                                    class="rounded-circle  ml-3 channel-img">
+                                                <span class="channel-text">سيزر</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 ">
+                                <div class="card mb-3">
+                                    <div class="card-horizontal d-md-flex d-block">
+                                        <div class="card-icons">
+                                            <a href="watch.html">
+                                                <img class="img-search" src="img/maxresdefault (4).jpg"
+                                                    alt="Card image cap">
+                                                <time>12:10</time>
+                                                <i class="fas fa-play fa-2x"></i>
+                                            </a>
+                                            <i class="fas fa-times remove"></i>
+                                        </div>
+                                        <div class="card-body pt-2 px-3 p-1">
+                                            <a href="watch.html">
+                                                <h4 class="card-title">مقطع اوفر واتش تيم كيل</h4>
+                                            </a>
+                                            <p class="card-text">عنوان ما له فايده لا تركزو عليه لاني ما اعرف
+                                                ايش اكتب
+                                                فيه بس لازم اكتب
+                                                عشان اختبر البطاقه و شكرا عنوان ما له فايده لا تركزو عليه لاني
+                                                ما اعرف
+                                                ايش اكتب فيه بس
+                                                لازم اكتب عشان اختبر البطاقه و شكرا عنوان ما له فايده لا تركزو
+                                                عليه لاني
+                                                ما اعرف ايش
+                                                اكتب فيه بس لازم اكتب عشان اختبر البطاقه و شكرا</p>
+                                            <small class="text-muted">
+                                                <i class="fas fa-film"></i><span> 3 ألاف مشاهده </span>
+                                                <i class="far fa-clock"></i><span> قبل 9 أشهر</span>
+                                            </small>
+                                            <a href="channel.html" class="channel-img">
+                                                <img src="img/channel.jpg" alt="channel image"
+                                                    class="rounded-circle  ml-3 channel-img">
+                                                <span class="channel-text">سيزر</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 ">
+                                <div class="card mb-3">
+                                    <div class="card-horizontal d-md-flex d-block">
+                                        <div class="card-icons">
+                                            <a href="watch.html">
+                                                <img class="img-search" src="img/maxresdefault (5).jpg"
+                                                    alt="Card image cap">
+                                                <time>12:10</time>
+                                                <i class="fas fa-play fa-2x"></i>
+
+                                            </a>
+                                            <i class="fas fa-times remove"></i>
+                                        </div>
+                                        <div class="card-body pt-2 px-3 p-1">
+                                            <a href="watch.html">
+                                                <h4 class="card-title">مقطع اوفر واتش تيم كيل</h4>
+                                            </a>
+                                            <p class="card-text">عنوان ما له فايده لا تركزو عليه لاني ما اعرف
+                                                ايش اكتب
+                                                فيه بس لازم اكتب
+                                                عشان اختبر البطاقه و شكرا عنوان ما له فايده لا تركزو عليه لاني
+                                                ما اعرف
+                                                ايش اكتب فيه بس
+                                                لازم اكتب عشان اختبر البطاقه و شكرا عنوان ما له فايده لا تركزو
+                                                عليه لاني
+                                                ما اعرف ايش
+                                                اكتب فيه بس لازم اكتب عشان اختبر البطاقه و شكرا</p>
+                                            <small class="text-muted">
+                                                <i class="fas fa-film"></i><span> 3 ألاف مشاهده </span>
+                                                <i class="far fa-clock"></i><span> قبل 9 أشهر</span>
+                                            </small>
+                                            <a href="channel.html" class="channel-img">
+                                                <img src="img/channel.jpg" alt="channel image"
+                                                    class="rounded-circle  ml-3 channel-img">
+                                                <span class="channel-text">سيزر</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 ">
+                                <div class="card mb-3">
+                                    <div class="card-horizontal d-md-flex d-block">
+                                        <div class="card-icons">
+                                            <a href="watch.html">
+                                                <img class="img-search" src="img/maxresdefault (6).jpg"
+                                                    alt="Card image cap">
+                                                <time>12:10</time>
+                                                <i class="fas fa-play fa-2x"></i>
+
+                                            </a>
+                                            <i class="fas fa-times remove"></i>
+                                        </div>
+                                        <div class="card-body pt-2 px-3 p-1">
+                                            <a href="watch.html">
+                                                <h4 class="card-title">مقطع اوفر واتش تيم كيل</h4>
+                                            </a>
+                                            <p class="card-text">عنوان ما له فايده لا تركزو عليه لاني ما اعرف
+                                                ايش اكتب
+                                                فيه بس لازم اكتب
+                                                عشان اختبر البطاقه و شكرا عنوان ما له فايده لا تركزو عليه لاني
+                                                ما اعرف
+                                                ايش اكتب فيه بس
+                                                لازم اكتب عشان اختبر البطاقه و شكرا عنوان ما له فايده لا تركزو
+                                                عليه لاني
+                                                ما اعرف ايش
+                                                اكتب فيه بس لازم اكتب عشان اختبر البطاقه و شكرا</p>
+                                            <small class="text-muted">
+                                                <i class="fas fa-film"></i><span> 3 ألاف مشاهده </span>
+                                                <i class="far fa-clock"></i><span> قبل 9 أشهر</span>
+                                            </small>
+                                            <a href="channel.html" class="channel-img">
+                                                <img src="img/channel.jpg" alt="channel image"
+                                                    class="rounded-circle  ml-3 channel-img">
+                                                <span class="channel-text">سيزر</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 ">
+                                <div class="card mb-3">
+                                    <div class="card-horizontal d-md-flex d-block">
+                                        <div class="card-icons">
+                                            <a href="watch.html">
+                                                <img class="img-search" src="img/maxresdefault (7).jpg"
+                                                    alt="Card image cap">
+                                                <time>12:10</time>
+                                                <i class="fas fa-play fa-2x"></i>
+
+                                            </a>
+                                            <i class="fas fa-times remove"></i>
+                                        </div>
+                                        <div class="card-body pt-2 px-3 p-1">
+                                            <a href="watch.html">
+                                                <h4 class="card-title">مقطع اوفر واتش تيم كيل</h4>
+                                            </a>
+                                            <p class="card-text">عنوان ما له فايده لا تركزو عليه لاني ما اعرف
+                                                ايش اكتب
+                                                فيه بس لازم اكتب
+                                                عشان اختبر البطاقه و شكرا عنوان ما له فايده لا تركزو عليه لاني
+                                                ما اعرف
+                                                ايش اكتب فيه بس
+                                                لازم اكتب عشان اختبر البطاقه و شكرا عنوان ما له فايده لا تركزو
+                                                عليه لاني
+                                                ما اعرف ايش
+                                                اكتب فيه بس لازم اكتب عشان اختبر البطاقه و شكرا</p>
+                                            <small class="text-muted">
+                                                <i class="fas fa-film"></i><span> 3 ألاف مشاهده </span>
+                                                <i class="far fa-clock"></i><span> قبل 9 أشهر</span>
+                                            </small>
+                                            <a href="channel.html" class="channel-img">
+                                                <img src="img/channel.jpg" alt="channel image"
+                                                    class="rounded-circle  ml-3 channel-img">
+                                                <span class="channel-text">سيزر</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card  mb-3">
+                                    <div class="card-horizontal d-md-flex d-block">
+                                        <div class="card-icons">
+                                            <a href="watch.html">
+                                                <img class="img-search" src="img/maxresdefault (8).jpg"
+                                                    alt="Card image cap">
+                                                <time>12:10</time>
+                                                <i class="fas fa-play fa-2x"></i>
+
+                                            </a>
+                                            <i class="fas fa-times remove"></i>
+                                        </div>
+                                        <div class="card-body pt-2 px-3 p-1">
+                                            <a href="watch.html">
+                                                <h4 class="card-title">مقطع اوفر واتش تيم كيل</h4>
+                                            </a>
+                                            <p class="card-text">عنوان ما له فايده لا تركزو عليه لاني ما اعرف
+                                                ايش اكتب
+                                                فيه بس لازم اكتب
+                                                عشان اختبر البطاقه و شكرا عنوان ما له فايده لا تركزو عليه لاني
+                                                ما اعرف
+                                                ايش اكتب فيه بس
+                                                لازم اكتب عشان اختبر البطاقه و شكرا عنوان ما له فايده لا تركزو
+                                                عليه لاني
+                                                ما اعرف ايش
+                                                اكتب فيه بس لازم اكتب عشان اختبر البطاقه و شكرا</p>
+                                            <small class="text-muted">
+                                                <i class="fas fa-film"></i><span> 3 ألاف مشاهده </span>
+                                                <i class="far fa-clock"></i><span> قبل 9 أشهر</span>
+                                            </small>
+                                            <a href="channel.html" class="channel-img">
+                                                <img src="img/channel.jpg" alt="channel image"
+                                                    class="rounded-circle  ml-3 channel-img">
+                                                <span class="channel-text">سيزر</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"
+        integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/5c2c0c4626.js" crossorigin="anonymous"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/log.js"></script>
+
+</body>
+
+</html>
