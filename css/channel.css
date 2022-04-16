@@ -1,0 +1,47 @@
+/** @format */
+
+.channel-page .social-media {
+  bottom: 18px;
+  left: 20px;
+}
+
+.szIcon {
+  block-size: 20px;
+}
+.header2 {
+  background-color: rgb(24, 24, 24);
+}
+.video-section {
+  background-color: rgb(24, 24, 24) !important;
+  margin: 20px !important;
+}
+.channel-page .follow {
+  bottom: 18px;
+  right: 20px;
+}
+.follow .sub-btn {
+  background-color: red !important;
+  border: none;
+  color: antiquewhite;
+}
+time {
+  bottom: 22px;
+  font-size: 13px;
+}
+.card .fa-play {
+  top: 38% !important;
+  right: 42% !important;
+}
+@media (max-width: 593px) {
+  .navbar-nav .nav-link {
+    font-size: 13px;
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+}
+@media (min-width: 593px) {
+  .navbar-nav .nav-link {
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+}

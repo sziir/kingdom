@@ -1,0 +1,43 @@
+/** @format */
+
+.card:hover {
+  transform: translateY(0%);
+}
+.watch-page .watch-icons {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+}
+.watch-icons:hover {
+  cursor: pointer;
+}
+.watch-page #more {
+  display: none;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.card-inner .card-body {
+  background-color: rgb(39, 39, 39);
+}
+.card-inner {
+  display: none;
+}
+time {
+  bottom: 23px;
+  font-size: 15px;
+}
+.card .fa-play {
+  top: 35% !important;
+  right: 47% !important;
+}
+@media (max-width: 1062px) {
+  #myBtn {
+    margin-bottom: 60px !important;
+  }
+}
+@media (max-width: 558px) {
+  .replay-time {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,238 @@
+/** @format */
+@font-face {
+  font-family: "cairoFont";
+  src: url(/fonts/Cairo-Regular.ttf);
+}
+.navbar-toggler {
+  background-color: antiquewhite;
+  border: none;
+}
+html {
+  overflow-x: hidden;
+}
+#top-menu .fa-bars {
+  cursor: pointer;
+}
+.purple {
+  color: rgb(194, 3, 194) !important;
+}
+#top-menu .video-icon {
+  background-color: rgb(194, 3, 194);
+  color: aliceblue;
+  border-radius: 15%;
+  padding: 2px;
+}
+#top-menu .bg-light,
+.header-btn,
+.modal-content,
+.card {
+  background-color: rgb(24, 24, 24) !important;
+  color: antiquewhite !important;
+}
+
+.form-control {
+  background-color: rgb(24, 24, 24) !important;
+  color: antiquewhite !important;
+}
+.sidebar {
+  position: fixed;
+  right: -18rem;
+  z-index: 4;
+  transition: all 0.5s ease-in-out;
+  height: 100%;
+  background-color: white;
+  overflow: hidden;
+  padding-bottom: 55px;
+}
+.sidebar:hover {
+  overflow-y: scroll;
+}
+.sidebar .list-group-item {
+  background-color: rgb(24, 24, 24);
+  color: antiquewhite !important;
+  width: 15rem;
+}
+.sidebar .list-group-item:hover {
+  background-color: rgb(46, 46, 46);
+}
+#wrap.toggled .sidebar {
+  right: -0rem;
+}
+.sidebar::-webkit-scrollbar {
+  background-color: rgb(24, 24, 24);
+  width: 8px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: rgb(54, 54, 54);
+  width: 8px;
+}
+.navbar .search-icon {
+  cursor: pointer;
+  padding: 15px 10px;
+  position: absolute;
+  top: 15px;
+  left: 132px;
+  display: none;
+}
+.navbar .search-icon:hover {
+  background-color: rgb(194, 3, 194);
+}
+.search-input {
+  position: fixed;
+  top: 72px;
+  border: none;
+  padding: 6px 23px;
+  height: 60px;
+  background-color: #efeeee;
+  display: none;
+  z-index: 1;
+}
+.search-input:focus {
+  background-color: #efeeee;
+}
+.container-fluid {
+  padding: 0px;
+  overflow: hidden;
+}
+
+button {
+  color: antiquewhite !important;
+  border-color: rgb(194, 3, 194) !important;
+}
+button:hover {
+  background-color: rgb(194, 3, 194) !important;
+  border-color: rgb(194, 3, 194) !important;
+  color: antiquewhite !important;
+}
+.login {
+  color: antiquewhite !important;
+}
+
+.nav-link:hover,
+.navbar .navbar-nav .active > .nav-link {
+  background-color: rgb(194, 3, 194) !important;
+  border-color: rgb(194, 3, 194) !important;
+  color: antiquewhite;
+}
+
+hr {
+  color: antiquewhite;
+}
+input.form-control:focus,
+button:focus {
+  box-shadow: none !important;
+}
+body {
+  font-family: "cairoFont", Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.966) !important;
+  color: antiquewhite !important;
+}
+.layer {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  display: none;
+}
+a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+a:hover {
+  color: antiquewhite;
+  text-decoration: none;
+}
+.card-body {
+  color: antiquewhite !important;
+}
+.card-img {
+  width: 300px;
+  height: 150px;
+}
+.channel-img {
+  block-size: 30px;
+  margin-bottom: 13px;
+}
+.img-search {
+  width: 300px;
+  height: 160px;
+}
+.card .card-icons {
+  position: relative;
+}
+time {
+  position: absolute;
+  bottom: 20px;
+  left: 7px;
+  color: antiquewhite;
+  background-color: #000;
+  padding: 0px 3px;
+}
+.card .fa-play {
+  position: absolute;
+  top: 43%;
+  right: 47%;
+  color: #2c3131c7;
+  display: none;
+}
+.card:hover .fa-play {
+  display: inline;
+}
+.card:hover {
+  transform: translateY(-0.9%);
+}
+.card {
+  transition: transform 0.5s;
+}
+.card .card-title {
+  height: 50px;
+  overflow: hidden;
+}
+.card .card-horizontal .card-body p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-body {
+  min-width: 0;
+}
+@media (max-width: 1108px) {
+  .navbar .collapse .form-inline {
+    display: none;
+  }
+  .navbar .search-icon {
+    display: inline;
+  }
+}
+@media (min-width: 1108px) {
+  .search-input {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .card .img-search {
+    width: 100% !important;
+    height: 300px !important;
+  }
+  .card .card-horizontal time {
+    left: 10px;
+  }
+  .card .card-horizontal .fa-play {
+    right: 48%;
+  }
+}
+@media (min-height: 782px) {
+  .sidebar {
+    position: fixed;
+    right: -18rem;
+    z-index: 4;
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+    height: 1289px;
+    background-color: rgb(24, 24, 24);
+  }
+}
